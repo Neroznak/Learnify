@@ -1,3 +1,3 @@
-# Synapse - бихнронная образовательная платформа
+# Learnify - Персонализированное будущее образования
 
-![Архитектура](assets/architecture.png)
+![Архитектура](assets/architecture.jpg)

@@ -53,7 +53,15 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/synapse-e2e/**/*", "api-gateway-e2e/**/*"]
+      "exclude": [
+        "apps/synapse-e2e/**/*",
+        "api-gateway-e2e/**/*",
+        "apps/auth-service-e2e/**/*",
+        "apps/user-service-e2e/**/*",
+        "apps/personalization-service-e2e/**/*",
+        "apps/course-service-e2e/**/*",
+        "apps/notification-service-e2e/**/*"
+      ]
     },
     {
       "plugin": "@nx/js/typescript",
