@@ -4,10 +4,7 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/synapse-e2e"
-    },
-    {
-      "path": "./apps/synapse"
+      "path": "./apps/api-gateway-e2e"
     }
   ]
 }
