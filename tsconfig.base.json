@@ -10,12 +10,10 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "paths": {
-      "*": ["node_modules/*"]
+      "*": ["node_modules/*"],
+      "@synapse/auth": ["libs/auth/src/index.ts"]
     }
   },
-  "include": [
-    "apps/**/*",
-    "libs/**/*"
-  ],
+  "include": ["apps/**/*", "libs/**/*"],
   "exclude": ["node_modules"]
 }
