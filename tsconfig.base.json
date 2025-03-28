@@ -11,7 +11,8 @@
     "baseUrl": "./",
     "paths": {
       "*": ["node_modules/*"],
-      "@synapse/auth": ["libs/auth/src/index.ts"]
+      "@learnify/libs": ["libs/auth/src/index.ts"],
+      "@learnify/packages/prisma" : ["packages/prisma.service.ts"]
     }
   },
   "include": ["apps/**/*", "libs/**/*"],
